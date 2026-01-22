@@ -1,0 +1,19 @@
+#Define Build Deps
+# [build-system]
+# requires = ["uv_build"]
+# build-backend = "uv_build"
+
+[project]
+name = "rctr"
+version = "0.1.0"
+description = "Pythonic development configuraiton for cpp projects."
+
+authors = [{name = "Austin Gilbert", email = "AGilbert.Dev@protonmail.com"}]
+readme = "README.md"
+license-files = ["LICENSE"]
+
+requires-python = "~=3.14.0"
+
+dependencies = [
+    "conan>=2.24.0",
+]
